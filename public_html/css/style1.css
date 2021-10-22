@@ -17,11 +17,12 @@ aside{
     float:left;
     clear:left;
 }
-.iframe-container{
+.iframe-container {
     position: relative;
     width: 10%;
     padding-bottom: 56.25%;
     height: 0;
+}
 
     .iframe-container iframe{
         position: absolute;
@@ -30,7 +31,6 @@ aside{
         width: 10%;
         height: 10%;
     }
-}
 
 
 
