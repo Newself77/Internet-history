@@ -1,16 +1,46 @@
 header,aside,main,footer{
     border:1px solid black;
 }
-
 body, html{
     margin: 0;
     padding: 0;
+    font-family: "Times New Roman";
+    color: whitesmoke;
+    background: darkcyan;
 }
-header{
-    width: 100%;
-    height: 90px;
-    background-color: #282828;
+h2{
+    color: blue;
 }
+.container{
+    max-width: 960px;
+    width: 96%;
+    margin: auto;
+}
+/*  -------Header-------- */
+
+header {
+    background-color: cadetblue;
+    margin-bottom: 20px;
+}
+.logo{
+    float: left;
+    margin-top: 10px;
+}
+nav{
+    float: right;
+    line-height: 70px;
+}
+nav li{
+    display: inline-block;
+    padding: 5px 20px;
+    margin-left: 10px;
+    background: dodgerblue;
+    line-height: normal;
+}
+
+
+
+
 h1{
     position: absolute;
     padding: 3px;
@@ -69,12 +99,12 @@ img {
     max-width:1100px;
     margin-left:auto;
     margin-right:auto;
-    background-color:aliceblue;
+    background-color:olivedrab;
 }
 
 aside{
     width:100%;
-    box-sizing: content-box;
+    box-sizing: border-box;
     float:left;
     clear:left;
 }
@@ -107,5 +137,6 @@ main{
 
 footer{clear:both}
 footer{float: right}
-footer{border:white }
+footer{border:red; }
+
 
