@@ -44,3 +44,14 @@ main{
 }
 
 footer{clear:both}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: aqua;
+    font-family: "Times New Roman";
+}
+.navbar li{
+    display: inline-block;
+
+}
