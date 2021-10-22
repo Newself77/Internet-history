@@ -1,4 +1,4 @@
-header,aside,main,footer{
+header,article,main,footer{
     border:2px solid black;
 }
 
@@ -66,14 +66,15 @@ a {
 #wrapper{
     width:88%;
     min-width:340px;
-    max-width:1100px;
+    max-width:1000px;
     margin-left:auto;
     margin-right:auto;
     background-color:aliceblue;
 }
 
-aside{
+article{
     width:33%;
+    height: 100%;
     box-sizing: border-box;
     float:left;
     clear:left;

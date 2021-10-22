@@ -1,0 +1,111 @@
+header,aside,main,footer{
+    border:1px solid black;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 90px;
+    background-color: #282828;
+}
+h1{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    font-family: 'Alfa Slab One', cursive;
+}
+span {
+    color: blue;
+}
+ul {
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+li {
+    display: inline-block;
+    padding: 15px 30px;
+}
+a {
+    text-align: center;
+    color: beige;
+    text-decoration: none;
+    font-family: 'Open Scans', sans-serif;
+    font-size: 1.2vw;
+}
+
+
+
+
+
+
+a:hover {
+    color: aliceblue;
+    transition: 0.5s;
+}
+img {
+    width: 100%;
+    margin-top: -16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#wrapper{
+    width:88%;
+    min-width:340px;
+    max-width:1100px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:aliceblue;
+}
+
+aside{
+    width:100%;
+    box-sizing: content-box;
+    float:left;
+    clear:left;
+}
+.iframe-container {
+    position: relative;
+    width: 60%;
+    padding-bottom: 61.25%;
+    height: 0;
+}
+
+.iframe-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 10%;
+}
+
+
+
+
+
+
+main{
+    width:100%;
+    float:right;
+    box-sizing:border-box;
+    height: 100%;
+}
+
+footer{clear:both}
+footer{float: right}
+footer{border:white }
+
